@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="flexCol">
+    <nav class="flexRow spaceBetween" style="background-color: darkslategrey;">
+
+        <ul id="navLinksList" class="flexRow hide" style="list-style-type: none; transition: height 0.3s linear;">
+            <li><a href="">link</a></li>
+            <li><a href="">link</a></li>
+            <li><a href="">link</a></li>
+        </ul>
+
+        <button id="navRevealButton">menu</button>
+    </nav>
+    <main>
+        <form id="nameSubmissionForm">
+            <input value="Default Value" type="text" name="nameInput" id="nameInput">
+            <button type="submit">
+                Submit
+            </button>
+        </form>
+    </main>
+    <script src="navBar.js"></script>
+    <script src="formSubmission.js"></script>
+</body>
+
+</html>
